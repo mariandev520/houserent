@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vendedores",
+  "info": {
+    "name": "vendedores"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "telefono": {
+      "required": true,
+      "type": "integer"
+    },
+    "mail": {
+      "type": "email",
+      "required": true
+    }
+  }
+}
